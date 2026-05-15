@@ -31,6 +31,7 @@ public class ATM_Interface{
 
                 default:
                 System.out.println(" OPPS ! Invalid option ");
+                sc.close();                
 
             }
         }
